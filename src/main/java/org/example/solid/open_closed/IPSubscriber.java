@@ -10,7 +10,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@SuppressWarnings("unused")
 public class IPSubscriber extends Subscriber {
 
   private long freeUsage;

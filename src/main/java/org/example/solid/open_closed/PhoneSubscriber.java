@@ -7,7 +7,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@SuppressWarnings("unused")
 @AllArgsConstructor
 public class PhoneSubscriber extends Subscriber {
   public PhoneSubscriber(Long subscriberId, String address, Long phoneNumber, int baseRate) {
