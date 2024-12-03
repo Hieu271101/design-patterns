@@ -12,9 +12,9 @@ public class ObjectPool<T extends Poolable> {
   public ObjectPool(Supplier<T> creator, int count) {
     availablePool = new LinkedBlockingQueue<>();
     for (int i = 0; i < count; i++) {
-      if(availablePool.offer(creator.get())){
+      if (availablePool.offer(creator.get())) {
         log.info("Getting....");
-      }else {
+      } else {
         log.error("Error....");
       }
     }
