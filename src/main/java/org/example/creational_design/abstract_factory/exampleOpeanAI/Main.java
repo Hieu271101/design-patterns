@@ -4,6 +4,7 @@ public class Main {
   public static void main(String[] args) {
     AnimalFactory animalFactory = new LandAnimalFactory();
     animalFactory.createAnimal().speak();
+    animalFactory.createHabitat().location();
 
     AnimalFactory animalFactory1 = new WaterAnimalFactory();
     animalFactory1.createAnimal().speak();
