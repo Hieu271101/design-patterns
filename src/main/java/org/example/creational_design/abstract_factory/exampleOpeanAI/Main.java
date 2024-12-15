@@ -6,8 +6,6 @@ public class Main {
     animalFactory.createAnimal().speak();
     animalFactory.createHabitat().location();
 
-    animalFactory.
-
     AnimalFactory animalFactory1 = new WaterAnimalFactory();
     animalFactory1.createAnimal().speak();
 
